@@ -29,4 +29,3 @@ Git performs a **three-way merge**, finding the common **ancestor** (aka "merge 
 * foo.**LOCAL**: the "**ours**" **side** of the conflict - ie, your branch (HEAD) that will contain the results of the merge
 * foo.**REMOTE**: the "**theirs**" **side** of the conflict - the branch you are merging into HEAD
 * foo.**BASE**: the **common ancestor**. useful for feeding into a three-way merge tool
-* foo.BACKUP: the contents of file before invoking the merge tool, will be kept on the filesystem if mergetool.keepBackup = true.
