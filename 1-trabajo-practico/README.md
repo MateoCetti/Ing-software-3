@@ -1,4 +1,16 @@
-# Ingenieria de Software III
+# Trabajo practico N°1
+
+- [Trabajo practico N°1](#trabajo-practico-n1)
+  - [Ejercicios 1, 2, 3,4](#ejercicios-1-2-34)
+  - [Ejercicio 5](#ejercicio-5)
+  - [Ejercicio 6](#ejercicio-6)
+  - [Ejercicio 7](#ejercicio-7)
+
+## Ejercicios 1, 2, 3,4 
+
+Done!
+
+## Ejercicio 5
 
 Un **pull request** es una petición para integrar nuestras propuestas o cambios de código a un proyecto.
 
@@ -30,6 +42,12 @@ Git performs a **three-way merge**, finding the common **ancestor** (aka "merge 
 * foo.**REMOTE**: the "**theirs**" **side** of the conflict - the branch you are merging into HEAD
 * foo.**BASE**: the **common ancestor**. useful for feeding into a three-way merge tool
 
+## Ejercicio 6
+
 **learngitbranching Introductory sequence**:
 
 ![](img/git_introductory_practice.png)
+
+## Ejercicio 7
+
+Done!
