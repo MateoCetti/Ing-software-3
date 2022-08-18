@@ -14,17 +14,19 @@
 
 ## Ejercicio 1
 
-**Version** de docker instalada:
+Vemos la **version** de docker instalada:
 
 ![](img/docker_version.png)
 
 ## Ejercicio 2
 
-**Cuenta creada** y familiarizandome con **docker-hub**:
+Creamos una **Cuenta** y nos familiarizamos con [docker-hub](https://hub.docker.com/):
 
 ![](img/docker_hub.png)
 
 ## Ejercicio 3
+
+Pulleamos una imagen de busybox y vemos las imagenes instaladas en nuestro equipo localmente.
 
 ![](img/busybox_dowload.png)
 
@@ -52,7 +54,7 @@ Vemos y **borramos** los contenedores
 
 ## Ejercicio 7
 
-Ejecutando el comando
+Ejecutando el comando para crear un busybox que use un volumen.
 
 ![](img/command_creating_volume.png)
 
@@ -98,4 +100,4 @@ En cambio con `docker exec` ejecutamos un comando (en este caso `psql -h localho
 
 ## Ejercicio 10
 
-Es este documento.
+Es este documento :P
