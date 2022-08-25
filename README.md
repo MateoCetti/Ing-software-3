@@ -5,3 +5,4 @@ Repositorio de la materia Ingenieria de software III de la Universidad Católica
 Trabajos practicos:
 * [Trabajo practico N° 1](./1-trabajo-practico/README.md)
 * [Trabajo practico N° 2](2-trabajo-practico/README.md)
+* * [Trabajo practico N° 3](3-trabajo-practico/README.md)
