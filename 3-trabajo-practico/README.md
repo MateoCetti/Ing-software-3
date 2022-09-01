@@ -6,6 +6,9 @@
   - [Ejercicio 3](#ejercicio-3)
   - [Ejercicio 4](#ejercicio-4)
   - [Ejercicio 5](#ejercicio-5)
+    - [Diagramas](#diagramas)
+      - [Diagrama de casos de uso](#diagrama-de-casos-de-uso)
+      - [Diagrama de secuencia](#diagrama-de-secuencia)
 
 ## Ejercicio 1
 
@@ -285,5 +288,12 @@ function getVotes(client) {
   });
 }
 ```
+### Diagramas
 
-[Documento de arquitectura](arquitectura.md)
+#### Diagrama de casos de uso
+
+![](img/usecase.png)
+
+#### Diagrama de secuencia
+
+![](img/sequence.png)
