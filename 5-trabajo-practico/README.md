@@ -4,8 +4,11 @@
   - [Ejercicios 1 y 2](#ejercicios-1-y-2)
   - [Ejercicio 3](#ejercicio-3)
   - [Ejercicio 4](#ejercicio-4)
-  - [Ejercicio 5](#ejercicio-5)
+  - [Ejercicio 6](#ejercicio-6)
   - [Ejercicio 7](#ejercicio-7)
+  - [Ejercicio 8](#ejercicio-8)
+  - [Ejercicio 9](#ejercicio-9)
+  - [Ejercicio 10](#ejercicio-10)
 
 ## Ejercicios 1 y 2
 
@@ -123,7 +126,7 @@ Luego, ejecutamos el proyecto, obteniendo lo siguiente:
 
 ![](img/hello_world.png)
 
-## Ejercicio 5
+## Ejercicio 6
 
 El error obtenido es el siguiente:
 
@@ -153,3 +156,80 @@ Ejecutamos la App:
 
 ![](img/idea_run.png)
 
+## Ejercicio 8 
+
+Instalamos node:
+
+![](img/node.png)
+
+Creamos la app y la corremos:
+
+![](img/react.png)
+
+El manejo de paquetes y dependencias de npm utiliza un archivo muy parecido al `pom.xml` de maven. Este archivo se llama package.json y contiene información acerca del programa creado, su version, dependencias junto con sus verciones y hasta algunos "scripts" que podemos correr utilizando npm para automatizar distintas funciones como `start`, `build`, `test`, etc.
+
+```json
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
+```
+
+## Ejercicio 9
+
+Instalamos cookiecutter en nuestro sistema con pip, creamos el proyecto a partir de un template y lo corremos utilizando make. A continuación, en el puerto 5000.
+
+![](img/cookie.png)
+
+**Cookiecutter** es una utilidad para la interfaz de linea de comandos que nos permite crear proyectos de python a partir de templates o **cookiecutters**.
+
+**make** es una utilidad que nos permite compilar de manera sumamente automatizada programas escritos en cualquier lenguaje de programación que se ejecute, compile o interprete mediante una shell. Esto se logra mediante el desarrollo de un archivo llamado **Makefile** que describe la relación entre los archivos de nuestro programa y los comandos a utilizar.
+
+**pip** es una utilidad que nos permite instalar y gestionar paquetes de python.
+
+## Ejercicio 10
+
+- pipenv --> python
+- maven --> java
+- gradle --> multi lenguaje
+- gulp --> js
+- nAnt --> .Net
+- Grunt --> js
+- Ant --> java
+- Sbt --> java y Scala 
+- Phing --> php
+- Jenkins --> servers
