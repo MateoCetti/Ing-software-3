@@ -3,6 +3,10 @@
 - [Trabajo practico N°6](#trabajo-practico-n6)
   - [Ejercicio 1](#ejercicio-1)
   - [Ejercicio 2](#ejercicio-2)
+  - [Ejercicio 3](#ejercicio-3)
+  - [Ejercicio 4](#ejercicio-4)
+  - [Ejercicio 5](#ejercicio-5)
+  - [Ejercicio 6](#ejercicio-6)
 
 ## Ejercicio 1
 
@@ -19,3 +23,36 @@ Estas instrucciones se implementan a partir de comandos o palabras reservadas qu
 * **ENTRYPOINT**: Este comando nos permite ejecutar un contenedor que correra como un ejecutable. A diferencia del comando `CMD`, los comandos definidos con `ENTRYPOINT` no pueden ser ignorados o sobreescritos.
 
 ## Ejercicio 2
+
+Compilamos el proyecto:
+
+![](img/build_success.png)
+
+Creamos la imagen de docker utilizando el dockerfile especificado en la consigna, creamos y corremos el contenedor con los respectivos comandos.
+
+![](img/contanier.png)
+
+## Ejercicio 3
+
+Luego de cambiar el contenido del archivo Dockerfile y construir nuevamente la imagen, analizamos el nuevo contenido de dicho archivo y sacamos como conclusión que en terminos generales, lo que hace esta nueva secuencia de instrucciones es realizar el proceso en 2 etapas, en la primera compila el codigo y genera los archivos .jar necesarios para poder ser ejecutado.
+
+Luego en la segunda etapa, en vez de partir de una imagen de maven, parte de una imagen de java, reduciendo asi el tamaño de la imagen de manera considerable. copia de la etapa anterior los archivos .jar generados que son necesarios para ejecutar la aplicación y genera una imagen similar a la del ejercicio anterior, permitiendonos crear un contenedor con la aplicación spring-boot en funcionamiento.
+
+## Ejercicio 4
+
+Este comando nos levanto 2 contenedores, uno **app** y otro **redis**. El contenedor **app** se creo a partir de una imagen a su vez creada a partir del archivo **Dockerfile** encontrado en la raiz del directorio del proyecto. `docker-compose` permite esto mediante la especificación de la ubicación de dicho archivo mediante la key `build.context`.
+
+## Ejercicio 5
+
+El archivo Dockerfile se adjunta a este trabajo practico. Los comandos utilizados fueron:
+
+`docker build -t test-node .`
+
+y
+
+`docker run -p 3000:80 test-node`
+
+## Ejercicio 6
+
+![](img/hub.png)
+
