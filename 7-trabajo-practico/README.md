@@ -15,7 +15,13 @@
 
 ## Ejercicio 2
 
-__TODO__ con profe
+En jenkins gestionamos y administramos herramientas para crear jobs o pipelines que automaticen el proceso de despliegue de software.
+
+Jenkins Pipeline es un conjunto de complementos que admite la implementación e integración de canalizaciones de entrega continua en Jenkins.
+
+Una canalización de entrega continua (CD) es una expresión automatizada de su proceso para obtener software desde el control de versiones hasta sus usuarios y clientes. Cada cambio en su software (comprometido en el control de código fuente) pasa por un proceso complejo antes de ser lanzado. Este proceso implica la construcción del software de manera confiable y repetible, así como el progreso del software construido (llamado "construcción") a través de múltiples etapas de prueba e implementación.
+
+Un pipeline es un modelo definido por el usuario de un pipeline de CD. El código de Pipeline define todo el proceso de creación, que normalmente incluye etapas para crear una aplicación, probarla y luego entregarla.
 
 ## Ejercicio 3
 
