@@ -4,6 +4,7 @@
   - [Ejercicio 1](#ejercicio-1)
   - [Ejercicio 2](#ejercicio-2)
   - [Ejercicio 3](#ejercicio-3)
+  - [Ejercicio 4](#ejercicio-4)
 
 ## Ejercicio 1
 
@@ -39,3 +40,12 @@ Y como podemos ver, la nueva imagen se subio a docker hub exitosamente:
 Tambien, mediante este [script](https://github.com/MateoCetti/isw-3-spring-boot/blob/main/.github/workflows/docker-image_2.yml) subimos la imagen al [github container repository](https://github.com/MateoCetti/isw-3-spring-boot/pkgs/container/isw-3-spring-boot) en vez de a docker hub.
 
 ![](img/ghcr.png)
+
+## Ejercicio 4
+
+Nos logueamos en CircleCI, modificamos el [script](https://github.com/MateoCetti/isw-3-spring-boot/blob/circleci-project-setup/.circleci/config.yml) y lo corremos:
+
+![](img/circleCI.png)
+
+![](img/circleCI_maven.png)
+
