@@ -10,3 +10,4 @@ Trabajos practicos:
 * [Trabajo practico N° 5](5-trabajo-practico/README.md)
 * [Trabajo practico N° 6](6-trabajo-practico/README.md)
 * [Trabajo practico N° 7](7-trabajo-practico/README.md)
+* [Trabajo practico N° 8](7-trabajo-practico/README.md)
