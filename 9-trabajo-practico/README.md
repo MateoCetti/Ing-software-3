@@ -69,7 +69,7 @@ Luego, el test `TestRootMessage` realiza una request a la uri "/" o al enpoint "
 
 ## Ejercicio 6
 
-En el repositorio hay un nuevo workflow llamado "Java CI with Maven" - Java CI with Maven, en el job Build y en el step Build se ejecutan los test de manera exitosa:
+En el [repositorio](https://github.com/MateoCetti/isw-3-spring-boot) hay un nuevo [workflow](https://github.com/MateoCetti/isw-3-spring-boot/blob/main/.github/workflows/maven_tests.yml) llamado "Java CI with Maven" - Java CI with Maven, en el job Build y en el step Build se ejecutan los test de manera exitosa:
 
 Linea de log N° 928
 
