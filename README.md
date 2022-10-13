@@ -12,3 +12,5 @@ Trabajos practicos:
 * [Trabajo practico N° 7](7-trabajo-practico/README.md)
 * [Trabajo practico N° 8](7-trabajo-practico/README.md)
 * [Trabajo practico N° 9](9-trabajo-practico/README.md)
+* [Trabajo practico N° 10](10-trabajo-practico/README.md)
+
